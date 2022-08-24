@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    width: 200px;
+    height: 150px;
+    
+}
+div{
+    display: flex;
+    flex-grow: 1;
+}
+h3 {
+    flex-grow: 1;
+}
+#blankspace{
+    height: 285px;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+#id1{
+    background: url(https://brendan-fisher.github.io/rock_paper_scissors/images/rock.png) center no-repeat;
+    background-size: 100% 100%;
+}
+#id2{
+    background: url(https://static.thenounproject.com/png/477922-200.png) center no-repeat; 
+    background-size: 100% 100%;
+}
+#id3{
+    background: url(https://static.thenounproject.com/png/477919-200.png) center no-repeat; 
+    background-size: 100% 100%;
+}
+button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: black;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+button:hover {background-color: #3e8e41}
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.containerbuttons{
+    justify-content: space-between;
+    padding: 0px;
+    width: 1000px;
+}
+#score{
+    align-self: center;
+}
+#dp{
+    align-self: center;
+}
